@@ -1,0 +1,23 @@
+name: cdc_gwas
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - plotly>=5.18
+  - plink2=2.0*
+  - plink
+  - regenie>=3.2.9
+  - pigz
+  - tabix
+  - pip
+  - pip:
+      - kaleido>=0.2
+
