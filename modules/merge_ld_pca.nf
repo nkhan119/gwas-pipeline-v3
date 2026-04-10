@@ -144,8 +144,7 @@ PYEOF
 }
 
 // ================================================================
-//  Sub-workflow — called from main.nf as MERGE_LD_PCA(collected_beds)
-//  Emits: eigenvec, eigenval, pca_variance, prune_in
+//  Sub-workflow — called from main.nf as MERGE_LD_PCA
 // ================================================================
 workflow MERGE_LD_PCA {
     take:
