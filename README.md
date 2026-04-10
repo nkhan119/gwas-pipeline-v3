@@ -42,7 +42,7 @@ results/
   phenotypes/Cohort_A/          ← only if simulating; otherwise reads from raw_dir
   gwas/Cohort_A/sumstats/       ← harmonised sumstats (×7 traits)
   gwas/Cohort_B/sumstats/
-  logs/                         ← trace, timeline, NF report
+  logs/                         
 ```
 
 ---
