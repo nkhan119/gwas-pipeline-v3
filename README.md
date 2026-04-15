@@ -92,14 +92,14 @@ nextflow run main.nf \
     -resume
 ```
 
-### Scenario 4 — Run on Narval from scratch
+### Scenario 4 — Run on Slurm from scratch
 
 ```bash
-# On Narval
+# On Slurm
 nextflow run main.nf \
-    -profile narval,conda \
-    --raw_dir ~/projects/def-fveyrier/1000G/GWAS_analysis \
-    --out_dir ~/projects/def-fveyrier/1000G/GWAS_results \
+    -profile slurm,conda \
+    --raw_dir ~/projects/1000G/GWAS_analysis \
+    --out_dir ~/projects/1000G/GWAS_results \
     --use_existing_pheno true \
     -resume
 ```
